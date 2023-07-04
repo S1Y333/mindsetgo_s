@@ -1,20 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-//import  ReactDOM from "react-dom"
-import {Routes,Route,NavLink, BrowserRouter,Switch} from 'react-router-dom';
-import './index.css';
-//import App from './App';
+import React from "react";
+ import ReactDOM from "react-dom";
 
-import { MainRouter } from './routers/MainRouter';
+ import App from "./App";
 
-
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.render(
-
-    <MainRouter />
-
- );
-
+ ReactDOM.render(
+     <App />,
+     document.getElementById("root")
+   );
 //  ReactDOM.render(<Home/>,document.getElementById("root")
 
 
